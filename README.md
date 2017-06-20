@@ -46,3 +46,14 @@ increment.
 If we need to reset the counter we need to hard reset the board through the
 reset button. Its best to try a couple of times to make sure that the signal
 is properly caught.
+
+
+# Debugging
+
+In order to debug our code and the loop we can set
+
+    HOURLY_SLEEP_DEBUG=True
+
+either in boot.py or in main.py
+If that variable is set the deepsleep performed is 6 seconds long instead of
+an hour to make the monitoring a bit more manageable.
