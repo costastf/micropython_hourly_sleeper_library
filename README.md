@@ -40,3 +40,9 @@ increment.
 
     if __name__ == '__main__':
         main()
+
+# Resetting the counter
+
+If we need to reset the counter we need to hard reset the board through the
+reset button. Its best to try a couple of times to make sure that the signal
+is properly caught.
